@@ -38,4 +38,11 @@
   virtual_sampling_rate: 1000
   usb:
     0x16D0: 0x10BA
-
+- name: Xilinx_Kintex7
+  type: dut
+  baud:
+    energy: 9600
+    performance: 115200
+    accuracy: 115200
+  usb:
+    0x1A86: 0x7523

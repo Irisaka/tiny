@@ -1,0 +1,9 @@
+Logging initialized. Writing output to sessions\20250727_144558\log.txt
+Traceback (most recent call last):
+File "c:\Users\Administrator\Desktop\BCI_All\Epilepsy\tiny\benchmark\runner\main.py", line 337, in <module>
+"devices_config": parse_device_config(args.device_list, args.device_yaml),
+File "c:\Users\Administrator\Desktop\BCI_All\Epilepsy\tiny\benchmark\runner\main.py", line 112, in parse_device_config
+with open(device_list_file) as dev_file:
+FileNotFoundError
+:
+[Errno 2] No such file or directory: 'devices.yaml'

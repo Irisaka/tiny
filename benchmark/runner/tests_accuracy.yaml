@@ -38,3 +38,11 @@ sww01:
   script:
     - loop:
       - stream
+pac:
+  name: pac_seizure_prediction
+  model: pac
+  truth_file: y_labels.csv
+  script:
+    - loop:
+      - download
+      - infer 1 0

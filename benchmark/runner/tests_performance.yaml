@@ -36,3 +36,11 @@ sww01:
   truth_file: sww_short_test.json
   script:
     - stream
+pac:
+  name: pac_seizure_prediction
+  model: pac
+  truth_file: y_labels.csv
+  script:
+    - loop 5: 
+      - download
+      - infer 20 5
