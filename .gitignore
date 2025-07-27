@@ -9,4 +9,3 @@ tmp/
 venv
 .python-version
 
-benchmark/runner/sessions/*
